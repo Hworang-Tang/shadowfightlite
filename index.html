@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ShadowFightLite</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="stage">Stage 1</div>
+    <div id="bars">
+      <div class="bar-wrap">
+        <div class="label">PLAYER</div>
+        <div class="bar" id="pbar"><div class="fill" id="pfill"></div></div>
+      </div>
+      <div class="bar-wrap">
+        <div class="label">ENEMY</div>
+        <div class="bar" id="ebar"><div class="fill" id="efill"></div></div>
+      </div>
+    </div>
+    <div id="msg"></div>
+    <div id="controls">
+      <div class="hint">Move: ← → or A D</div>
+      <div class="hint">Attack: J</div>
+      <div class="hint">Block: K</div>
+      <div class="hint">Restart: R</div>
+    </div>
+  </div>
+  <canvas id="game"></canvas>
+<script src="main.js"></script>
+</body>
+</html>
